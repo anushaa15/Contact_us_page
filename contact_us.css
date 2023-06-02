@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 body {
-  background-image: url("tex(1).jpeg");
+  background-image: url("tex.jpeg");
   background-size: 400% 400%;
   -webkit-animation: gradient 80s ease infinite;
           animation: gradient 80s ease infinite;
@@ -45,7 +45,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-  background-image: url("tex(1).jpeg");
+  background-image: url("tex.jpeg");
 }
 .container .contactinfo h2 {
   text-align: center;
