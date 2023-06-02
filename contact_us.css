@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 body {
-  background-image: url("tex.jpeg");
+  background-image: url("C://Users//anush//Downloads//tex.jpeg");
   background-size: 400% 400%;
   -webkit-animation: gradient 80s ease infinite;
           animation: gradient 80s ease infinite;
@@ -168,124 +168,132 @@ body {
   width: 100%;
 }
 
+
 @media screen and (max-width: 480px) {
 
+  
+  section {
 
-    section {
-        position:absolute;
-        justify-content: center;
-        align-content: center;
-        min-height: 20vh;
-        width: 85%;
-      
-    }
-    .container .contactinfo h2 {
-        text-align: center;
-    }
-    .container .contactinfo{
-
-        width: 90%;
-        margin-top: 80px;
-        margin-bottom: 0px;
-        margin-right: auto;
-        margin-left: 45px;
-        padding: 2px;
+    position:absolute;
+    justify-content: center;
+    align-content: center;
+    min-height: 20vh;
+    width: 85%;
     
-    }
+  }
+  .container .contactinfo h2 {
+    text-align: center;
+  }
+  .container .contactinfo{
+
+    width: 90%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: 45px;
+    padding: 2px;
+
+  }
 
 
-    section .container .contactinfo .info {
-        flex-direction:row;
-    
-        margin-top: 17px;
-        padding-left: 15px;
-        min-height: 3vh;
+  section .container .contactinfo .info {
+    flex-direction:row;
 
-    }
+    margin-top: 17px;
+    padding-left: 15px;
+    min-height: 3vh;
+
+  }
       
    
-    section .container .contactinfo li span:nth-child(2) {
-        margin-right: 10px;
-       
-    }
+  section .container .contactinfo li span:nth-child(2) {
+    margin-right: 10px;
+      
+  }
 
-    .container .contactinfo .info li {
-        position:relative;
-        list-style: none;
-        display: flex;
-        margin: 20px 10px;
-        cursor: pointer;
-    }
-      .container .contactinfo .info li span:nth-child(1) {
-        width: 35px;
-        min-width: 35px;
-       
-    }
+  .container .contactinfo .info li {
+    position:relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+  .container .contactinfo .info li span:nth-child(1) {
+    width: 35px;
+    min-width: 35px;
+      
+  }
 
-    .container .contactusform {
-        position:relative;
-        width: 90%;
-        margin-bottom: 0px;
-        margin-right: auto;
-        margin-left: 45px;
-        padding: 10px;
+  .container .contactusform {
+    position:relative;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: 45px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+    top: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  .container .contactusform h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .container .contactusform .formBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    max-height: 380px;
     
-      
-       
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      
-        background-color: #eee;
-        top: 0;
-    }
-    .container .contactusform h2 {
-        color: #000;
-        font-size: 24px;
-        font-weight: 700;
-        text-align: center;
-    }
-    .container .contactusform .formBox {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding-top: 30px;
-        max-height: 380px;
-    }
-    .container .contactusform .formBox .inputBox {
-        position: relative;
-        margin: 0 0 35px 0;
-        width: 100% !important;
-    }
-    .container .contactusform .formBox .inputBox textarea {
-        min-height: 50px;
-    }
+  }
+  .container .contactusform .formBox .inputBox {
+    position: relative;
+    margin: 0 0 35px 0;
+    width: 100% !important;
+  }
+  .container .contactusform .formBox .inputBox textarea {
+    min-height: 50px;
+  }
 
-    .container .contactusform .formBox .inputBox input[type=submit] {
-        position: absolute;
-        cursor: pointer;
-        background-color: #61479c;
-        color: #fff;
-        border: none;
-        margin-left: 90px;
+  .container .contactusform .formBox .inputBox input[type=submit] {
+    position:absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #61479c;
+    color: #fff;
+    border: none;
+    text-align: center;
+
+
+   
+   
     
-        
-    }
-    .container .contactusform .formBox .inputBox input[type=submit]:hover {
-        background-color: #dcdcdc;
-    }
-    .container .contactusform .formBox .w50 {
-        width: 85%;
+  
       
-    }
-    .container .contactusform .formBox .w100 {
-        width: 85%;
-       
+  }
+  .container .contactusform .formBox .inputBox input[type=submit]:hover {
+    background-color: #dcdcdc;
+  }
+  .container .contactusform .formBox .w50 {
+    width: 85%;
+    
+  }
+  .container .contactusform .formBox .w100 {
+    width: 85%;
+      
         
-    }
+  }
       
 
 } 
