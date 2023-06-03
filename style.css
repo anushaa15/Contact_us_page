@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 body {
-  background-image: url("C:\Users\anush\Downloads\tex.jpeg");
+  background-image: url("tex.jpeg");
   background-size: 400% 400%;
   -webkit-animation: gradient 80s ease infinite;
           animation: gradient 80s ease infinite;
