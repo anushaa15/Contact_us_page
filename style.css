@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 body {
-  background-image: url("tex.jpeg");
+  background-image: url("C:\Users\anush\Downloads\tex.jpeg");
   background-size: 400% 400%;
   -webkit-animation: gradient 80s ease infinite;
           animation: gradient 80s ease infinite;
@@ -45,12 +45,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-  background-color: #333333;
+  background-image: url("tex.jpeg");
 }
 .container .contactinfo h2 {
   text-align: center;
   color: #fff;
-  font-size: 45px;
+  font-size: 24px;
   font-weight: 700;
 }
 .container .contactinfo .info {
@@ -75,14 +75,14 @@ body {
 }
 .container .contactinfo .info li span:nth-child(1) img {
   max-width: 100%;
-  filter: invert(83%);
-  opacity: 0.5;
+  
+  opacity: 1;
 }
 .container .contactinfo .info li span:nth-child(2) {
   color: #fff;
   margin-left: 10px;
   font-weight: 100;
-  opacity: 0.5;
+  opacity: 1;
 }
 .container .contactinfo .info li:hover span:nth-child(1) img, .container .contactinfo .info li:hover span:nth-child(2) {
   opacity: 1;
@@ -107,6 +107,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 .container .contactusform .formBox .inputBox {
   position: relative;
@@ -170,8 +171,24 @@ body {
 
 
 @media screen and (max-width: 480px) {
+  body {
+    background-image: url("tex.jpeg");
+    background-image: linear-gradient();
+    -webkit-animation: gradient 50s ease infinite;
+            animation: gradient 50s ease infinite;
+    height: 100vh;
+  }
 
-  
+  .container .contactinfo {
+    display: flex;
+    top: 0;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #3e1168;
+  }
   section {
 
     position:absolute;
@@ -182,13 +199,16 @@ body {
     
   }
   .container .contactinfo h2 {
+    margin-top: 5%;
     text-align: center;
+    font-size: 250%;
   }
   .container .contactinfo{
 
     width: 90%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+   
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     margin-top: 80px;
     margin-bottom: 0px;
     margin-right: auto;
@@ -201,15 +221,22 @@ body {
   section .container .contactinfo .info {
     flex-direction:row;
 
-    margin-top: 17px;
-    padding-left: 15px;
-    min-height: 3vh;
+    margin-top: 1px;
+    padding-left: 1px;
+    min-height: 1vh;
 
   }
       
    
+  .container .contactinfo .info li:hover span:nth-child(1) img, .container .contactinfo .info li:hover span:nth-child(2) {
+    opacity: 1;
+   
+  }
   section .container .contactinfo li span:nth-child(2) {
-    margin-right: 10px;
+   
+    margin-right:10px;
+
+   
       
   }
 
@@ -221,8 +248,12 @@ body {
     cursor: pointer;
   }
   .container .contactinfo .info li span:nth-child(1) {
-    width: 35px;
-    min-width: 35px;
+    width: 150%;
+    min-width: 100%;
+    margin-right:2%;
+
+   
+   
       
   }
 
@@ -238,8 +269,8 @@ body {
     justify-content: center;
     background-color: #eee;
     top: 0;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   .container .contactusform h2 {
     color: #000;
@@ -268,21 +299,16 @@ body {
 
   .container .contactusform .formBox .inputBox input[type=submit] {
     position:absolute;
+    width: 50%;
+    margin-left: 22.5%;
+   
+    margin-bottom: 5%;
     border-radius: 10px;
     cursor: pointer;
     background-color: #61479c;
     color: #fff;
-    border: none;
-    text-align: center;
-    margin-left: 25%;
-    margin-bottom: 5%;
-
-
-   
-   
     
-  
-      
+    text-align: center;
   }
   .container .contactusform .formBox .inputBox input[type=submit]:hover {
     background-color: #dcdcdc;
